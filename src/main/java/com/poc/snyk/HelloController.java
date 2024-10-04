@@ -13,6 +13,8 @@ public class HelloController {
 
     @GetMapping("/name")
     public String TEST_NAMING_CONVENION() {
+        String userName = "userName";
+        String password = "password";
         String x = "HELLO_WORLD";
         return x;
     }
