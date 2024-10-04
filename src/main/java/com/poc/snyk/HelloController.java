@@ -15,6 +15,7 @@ public class HelloController {
     public String TEST_NAMING_CONVENION() {
         String userName = "userName";
         String password = "password";
+        System.out.println(userName + " " + password);
         String x = "HELLO_WORLD";
         return x;
     }
